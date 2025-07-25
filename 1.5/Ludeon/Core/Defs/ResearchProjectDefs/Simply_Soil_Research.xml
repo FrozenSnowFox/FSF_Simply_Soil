@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Fertilizer -->
+
+	<ResearchProjectDef>
+		<defName>FSFResearchFertilizer</defName>
+		<label>Fertilizer</label>
+		<description>Learn various techniques to enrich layered soil to make it more fertile.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<prerequisites>
+		  <li MayRequire="PeteTimesSix.ResearchReinvented.SteppingStones">RR_Agriculture</li>
+		  <li MayRequire="OskarPotocki.VFE.Tribals">VFET_Agriculture</li>
+		</prerequisites>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->fertilizer</li>
+				<li>subject_story->studied neolithic societies methods of creating fertilizer</li>
+				<li>subject_story->worked as a farmer growing crops with fertilizer on a medieval world</li>
+				<li>subject_story->spent time as a missionary on a post-apocalyptic world teaching people how to revitalise the soil with fertilizer</li>
+				<li>subject_gerund->creating fertilizer</li>
+				<li>subject_gerund->utilizing fertilizer</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+
+</Defs>

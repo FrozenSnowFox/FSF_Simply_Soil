@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>FrozenSnowFox.SimplySoil</modId>
+		<key>FSFSimplySoilSoftEdges</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+			
+		<Operation Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				
+			<!-- Soft Edges -->
+				
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName = "FSFSoilStony"]/edgeType</xpath>
+				<value>
+					<edgeType>FadeRough</edgeType>
+				</value>
+			</li>
+				
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName = "FSFSoil"]/edgeType</xpath>
+				<value>
+					<edgeType>FadeRough</edgeType>
+				</value>
+			</li>
+				
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName = "FSFSoilRich"]/edgeType</xpath>
+				<value>
+					<edgeType>FadeRough</edgeType>
+				</value>
+			</li>
+				
+			</operations>
+		</Operation>
+			
+		</caseTrue>
+	</Operation>
+
+</Patch>

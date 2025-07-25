@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- Regrowth Core -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "RG_TundraSoil"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "RG_BorealSoil"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "RG_TemperateSoil"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "RG_AspenSoil"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "RG_AnimaSoil"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "RG_AnimaSoilEnchanted"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

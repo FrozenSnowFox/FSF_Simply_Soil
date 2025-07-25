@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Fertilizer -->
+
+	<ResearchProjectDef>
+		<defName>FSFResearchFertilizer</defName>
+		<label>Fertilizer</label>
+		<description>Learn various techniques to enrich layered soil to make it more fertile.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

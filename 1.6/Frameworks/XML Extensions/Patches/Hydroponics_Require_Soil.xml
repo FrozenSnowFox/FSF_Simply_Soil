@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>FrozenSnowFox.SimplySoil</modId>
+		<key>FSFSimplySoilHydroponics</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+			
+		<Operation Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				
+			<!-- Hydroponics Require Soil -->
+				
+			<!-- Core -->
+				
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "HydroponicsBasin"]/costList</xpath>
+				<value>
+					<FSFItemSoilRich>20</FSFItemSoilRich>
+				</value>
+			</li>
+				
+			<!-- Vanilla Furniture Expanded Farming -->
+				
+			<li MayRequire="VanillaExpanded.VFEFarming" Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "VFE_Hydroponics_Tilable"]/costList</xpath>
+				<value>
+					<FSFItemSoilRich>5</FSFItemSoilRich>
+				</value>
+			</li>
+				
+			<li MayRequire="VanillaExpanded.VFEFarming" Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "VFE_Ecosystem_Tilable"]/costList</xpath>
+				<value>
+					<FSFItemSoilRich>5</FSFItemSoilRich>
+				</value>
+			</li>
+				
+			<li MayRequire="VanillaExpanded.VFEFarming" Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "VFE_Ecosystem"]/costList</xpath>
+				<value>
+					<FSFItemSoilRich>20</FSFItemSoilRich>
+				</value>
+			</li>
+				
+			</operations>
+		</Operation>
+			
+		</caseTrue>
+	</Operation>
+
+</Patch>

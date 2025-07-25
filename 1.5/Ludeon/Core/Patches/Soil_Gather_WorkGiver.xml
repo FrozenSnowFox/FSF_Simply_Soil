@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			
+	<!-- Stony Soil -->
+		
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/WorkGiverDef[defName = "DoBillsUseCraftingSpot"]/fixedBillGiverDefs</xpath>
+					<value>
+						<li>FSFSoilStonyGatherSpot</li>
+					</value>
+			</li>
+
+	<!-- Regular Soil -->
+		
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/WorkGiverDef[defName = "DoBillsUseCraftingSpot"]/fixedBillGiverDefs</xpath>
+					<value>
+						<li>FSFSoilGatherSpot</li>
+					</value>
+			</li>
+			
+	<!-- Rich Soil -->
+		
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/WorkGiverDef[defName = "DoBillsUseCraftingSpot"]/fixedBillGiverDefs</xpath>
+					<value>
+						<li>FSFSoilRichGatherSpot</li>
+					</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>
