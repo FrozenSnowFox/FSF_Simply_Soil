@@ -103,6 +103,9 @@
 		
 		<!-- Mods -->
 		
+		<!-- Mashed's Ashlands -->		
+		<li IfModActive="SirMashedPotato.Ashlands">1.6/Mods/Masheds Ashlands</li>
+		
 		<!-- Vanilla Factions Expanded Tribals -->		
 		<li IfModActive="OskarPotocki.VFE.Tribals">1.6/Mods/Vanilla Factions Expanded Tribals</li>
 		
