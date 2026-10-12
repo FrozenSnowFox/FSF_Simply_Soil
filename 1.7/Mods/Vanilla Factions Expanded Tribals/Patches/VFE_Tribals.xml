@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+				
+				<li Class="PatchOperationRemove"> 
+					<xpath>/Defs/ResearchProjectDef[defName="FSFResearchFertilizer"]/prerequisites/li[text()="RR_Agriculture"]</xpath>
+				</li>
+
+		</operations>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			
+	<!-- Stony Soil -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_AshGravel"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilStony</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_AshDust"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilStony</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_RichAshSand"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilStony</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_AshGravelVolcanic"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilStony</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_RichAshSandVolcanic"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilStony</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_MossyAshSoilBlighted"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilStony</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_AshRiverbankBlighted"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilStony</li>
+					</affordances>
+				</value>
+			</li>
+			
+	<!-- Soil -->
+	
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_AshSoil"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoil</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_MossyAshSoil"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoil</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_GrazelandSoil"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoil</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_RichAshGravel"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoil</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_AshSoilVolcanic"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoil</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_RichAshGravelVolcanic"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoil</li>
+					</affordances>
+				</value>
+			</li>
+			
+	<!-- Rich Soil -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_RichAshSoil"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilRich</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_AshRiverbank"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilRich</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_RichAshSoilVolcanic"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilRich</li>
+					</affordances>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Mashed_Ashlands_AshRiverbankVolcanic"]</xpath>
+				<value>
+					<affordances>
+						<li>FSFAffordanceSoilRich</li>
+					</affordances>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

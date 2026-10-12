@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<RecipeDef>
+		<defName>FSFRecipeFertilizerE10</defName>
+		<label>create fertilizer</label>
+		<description>By refining organic matter you can create a high quality fertilizer.</description>
+		<jobString>Making fertilizer.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+			<li>CraftingSpot</li>
+			<li>FSFSoilStonyGatherSpot</li>
+			<li>FSFSoilGatherSpot</li>
+			<li>FSFSoilRichGatherSpot</li>
+		</recipeUsers>
+		<researchPrerequisite><li>FSFResearchFertilizer</li></researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+          			<thingDefs>
+						<li>VRecyclingE_ReclaimedBiopack</li>
+          			</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>VRecyclingE_ReclaimedBiopack</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<FSFItemFertilizer>100</FSFItemFertilizer>
+		</products>
+  	</RecipeDef>
+  
+</Defs>

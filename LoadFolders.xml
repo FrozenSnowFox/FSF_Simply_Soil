@@ -114,4 +114,35 @@
 		
 	</v1.6>
 	
+	<v1.7>	
+
+		<!-- Ludeon -->
+		
+		<!-- Core -->
+		
+		<li>/</li>
+		<li>1.7/Ludeon/Core</li>
+		
+		
+		
+		<!-- Frameworks -->
+
+		<!-- XML Extensions -->
+		<li IfModActive="imranfish.xmlextensions">1.7/Frameworks/XML Extensions</li>
+		
+		
+		
+		<!-- Mods -->
+		
+		<!-- Mashed's Ashlands -->		
+		<li IfModActive="SirMashedPotato.Ashlands">1.7/Mods/Masheds Ashlands</li>
+		
+		<!-- Vanilla Factions Expanded Tribals -->		
+		<li IfModActive="OskarPotocki.VFE.Tribals">1.7/Mods/Vanilla Factions Expanded Tribals</li>
+		
+		<!-- Vanilla Recycling Expanded -->		
+		<li IfModActive="VanillaExpanded.Recycling">1.7/Mods/Vanilla Recycling Expanded</li>
+		
+	</v1.7>
+	
 </loadFolders>

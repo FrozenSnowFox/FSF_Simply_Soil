@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<XmlExtensions.SettingsMenuDef>
+		<defName>FrozenSnowFoxSimplySoilSettings</defName> <!--Can be anything unique with no periods-->
+		<modId>FrozenSnowFox.SimplySoil</modId> <!--MUST be the same as the one entered earlier-->    
+		<label>FrozenSnowFox Simply Soil</label> <!-- This is what displays as your mod's name-->    
+		<settings> <!--This is where you define what settings are in the settings menu-->
+
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(187,0,0)</color>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>For any changed settings to take effect the game must be restarted.</text>
+				<font>Medium</font>
+				<anchor>Middle</anchor>
+				<tKey>FSFSimplySoilModWarning</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor"/>
+			<li Class="XmlExtensions.Setting.GapLine">
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Simply Soil Settings</text>
+				<font>Medium</font>
+				<anchor>Middle</anchor>
+				<tKey>FSFSimplySoilSettingsTitle</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.GapLine">
+			</li>
+			
+			<!-- Hydroponics Require Soil -->
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<label>Hyproponics Require Soil</label>
+				<key>FSFSimplySoilHydroponics</key>
+				<defaultValue>false</defaultValue>
+				<tKey>FSFSimplySoilHydroponicsTitle</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(163,177,188)</color>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Adds Rich Soil to the material requirements of Hydroponic Basins.</text>
+				<tKey>FSFSimplySoilHydroponicsDesc</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor"/>
+			<li Class="XmlExtensions.Setting.GapLine">
+				<spacing>12</spacing>
+			</li>
+			
+			<!-- Plant Pots Require Soil -->
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<label>Plant Pots Require Soil</label>
+				<key>FSFSimplySoilPlantPots</key>
+				<defaultValue>false</defaultValue>
+				<tKey>FSFSimplySoilPlantPotsTitle</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(163,177,188)</color>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Adds Soil to the material requirements of Plant Pots which are used for growing flowers.</text>
+				<tKey>FSFSimplySoilPlantPotsDesc</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor"/>
+			<li Class="XmlExtensions.Setting.GapLine">
+				<spacing>12</spacing>
+			</li>
+			
+			<!-- Planter Boxes Require Soil -->
+			
+			<li MayRequire="VanillaExpanded.VFEFarming" Class="XmlExtensions.Setting.Checkbox">
+				<label>Planter Boxes Require Soil</label>
+				<key>FSFSimplySoilPlanterBoxes</key>
+				<defaultValue>false</defaultValue>
+				<tKey>FSFSimplySoilPlanterBoxesTitle</tKey>
+			</li>
+			<li MayRequire="VanillaExpanded.VFEFarming" Class="XmlExtensions.Setting.SetColor">
+				<color>(163,177,188)</color>
+			</li>
+			<li MayRequire="VanillaExpanded.VFEFarming" Class="XmlExtensions.Setting.Text">
+				<text>Adds Soil to the material requirements of Planter Boxes which are used for growing crops.</text>
+				<tKey>FSFSimplySoilPlanterBoxesDesc</tKey>
+			</li>
+			<li MayRequire="VanillaExpanded.VFEFarming" Class="XmlExtensions.Setting.GapLine">
+				<spacing>12</spacing>
+			</li>
+			
+			<!-- Soft Edges -->
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<label>Soft Edges</label>
+				<key>FSFSimplySoilSoftEdges</key>
+				<defaultValue>false</defaultValue>
+				<tKey>FSFSimplySoilSoftEdgesTitle</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(163,177,188)</color>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Changes the texture edges of Simply Soil terrains to have soft edges so they blend in with other terrain types like normal soil.</text>
+				<tKey>FSFSimplySoilSoftEdgesDesc</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor"/>
+			<li Class="XmlExtensions.Setting.SetColor"/>
+			
+			
+			
+			<li Class="XmlExtensions.Setting.GapLine">
+			</li>
+						
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+
+</Defs>
